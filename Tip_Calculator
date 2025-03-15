@@ -1,3 +1,11 @@
+# DAY 2 Project: Tip Calculator
+
+# Create a tip calculator that calculators how much each person should pay.
+# The bill per person should be formatted so it results with 2 decimal places.
+
+# -----------------------------------------------------------------------------
+
+
 print("~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~")
 print("Welcome to the Tip Calculator!")
 print("~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~")
