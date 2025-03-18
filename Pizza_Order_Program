@@ -1,0 +1,40 @@
+# DAY 3 - Pizza Order Program
+
+# Based on a user's order, work out their final bill. 
+# The program retrieves user preferences and then add up the total
+# and tell them how much the final bill will be.
+
+# ----------------------------------------------------------------
+
+print("Welcome to Python Pizza Deliveries!")
+print("---------------------------------------------------------")
+print(" ")
+size = input("What size pizza do you want? S, M or L: ")
+pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
+extra_cheese = input("Do you want extra cheese? Y or N: ")
+
+
+
+if size == "S":
+    bill = 15
+    if pepperoni == "Y":
+        bill += 2
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your final bill is: ${bill}")
+
+if size == "M":
+    bill = 20
+    if pepperoni == "Y":
+        bill += 3
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your final bill is: ${bill}")
+
+if size == "L":
+    bill = 25
+    if pepperoni == "Y":
+        bill += 3
+    if extra_cheese == "Y":
+        bill += 1
+    print(f"Your final bill is: ${bill}")
